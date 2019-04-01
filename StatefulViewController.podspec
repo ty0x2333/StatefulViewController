@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "StatefulViewController"
-  s.version           = "3.0"
+  s.version           = "4.0"
   s.summary           = "Placeholder views based on content, loading, error or empty states"
   s.description       = "A view controller subclass that presents placeholder views based on content, loading, error or empty states."
   s.homepage          = "https://github.com/aschuch/StatefulViewController"
@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.source            = { :git => "https://github.com/aschuch/StatefulViewController.git", :tag => s.version }
   s.requires_arc      = true
   s.source_files      = 'StatefulViewController/*.swift'
+  s.swift_version     = '4.2'
 end
